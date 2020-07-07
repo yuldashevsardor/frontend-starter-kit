@@ -1,0 +1,45 @@
+/**
+ * Paths
+ */
+$images-path: '../image';
+$icons-path: '#{$images-path}/icons';
+$fonts-path: '../font';
+
+/*
+ * Responsive breakpoints
+ */
+
+$screen-xxl: 1500px;
+$screen-xl: 1200px;
+$screen-lg: 992px;
+$screen-md: 768px;
+$screen-sm: 576px;
+
+/*
+ * Font variables
+ */
+
+$base-font-size: 16px;
+$base-font-family: "MontserratRegular", san-serif; // TODO change font
+$base-font-color: #fff;
+$base-line-height: 1.2;
+$base-font-weight: 400;
+
+// TODO change base colors by layout
+$base-color: #150416;
+$base-color2: #250827;
+$base-color3: #612768;
+$base-color4: #501356;
+$base-color5: #8c2c93;
+$pink: #D22C9A;
+
+/*
+ * <body/> background-color
+ */
+
+$body-background-color: $base-color;
+
+/**
+ * Sizes
+ */
+$full-hd-ratio: 1.777777778;

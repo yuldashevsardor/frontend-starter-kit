@@ -1,0 +1,37 @@
+body {
+    font-size: $base-font-size;
+    font-family: $base-font-family;
+    color: $base-font-color;
+    line-height: $base-line-height;
+    font-weight: $base-font-weight;
+    background-color: $body-background-color;
+    overflow: auto;
+
+    &.fixed {
+        overflow: hidden;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+
+    &:before, &:after {
+        box-sizing: border-box;
+    }
+
+    &::-webkit-input-placeholder, &:-moz-placeholder, &:-ms-input-placeholder {
+        color: #666;
+        opacity: 1;
+    }
+}
+
+img {
+    text-indent: -9999px;
+    color: transparent;
+    text-decoration: none;
+    text-underline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0;
+}

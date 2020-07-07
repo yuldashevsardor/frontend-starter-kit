@@ -1,0 +1,34 @@
+/*
+ * Base
+ */
+
+@import "core/variables";
+@import "core/mixins";
+@import "core/fonts";
+@import "core/global";
+
+/**
+ * Libs
+ */
+@import "~normalize.css";
+
+/**
+ * Components
+ */
+@import "components/container";
+
+/**
+ * Modules
+ */
+@import "modules/header";
+@import "modules/footer";
+@import "modules/loader";
+
+/**
+ * Pages
+ */
+@import "pages/home/home";
+
+/**
+ * Utils
+ */
