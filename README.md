@@ -1,2 +1,2 @@
 # frontend-starter-kit
-Start kit for frontend
+Starter kit for frontend
